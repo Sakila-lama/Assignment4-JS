@@ -1,0 +1,99 @@
+/* styles.css */
+
+/* Set default styles for the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center the content horizontally */
+}
+
+/* Style the main heading */
+h1 {
+    color: #499cf0;
+    margin-top: 20px;
+}
+
+/* Style for interactive buttons */
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    /* Add transitions for smooth effects */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #390e61; /* Change the background color on hover */
+    transform: translateY(-3px); /* Move the button slightly upward on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow for elevation */
+}
+
+/* Social share hover effect */
+.social-share a {
+    margin-right: 20px; /* Increase the margin between social share icons */
+    transition: transform 0.3s ease;
+}
+
+/* Social share hover effect */
+.social-share a:hover {
+    transform: scale(1.2);
+}
+
+/* Style for dropdown selects */
+select {
+    padding: 8px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+/* Style for the container that displays jokes */
+#joke-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3d8192;
+    border-radius: 5px;
+    display: none; /* Initially hide the container */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle box shadow for depth */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+/* Style for social share links */
+.social-share {
+    margin-top: 20px;
+}
+
+.social-share a {
+    margin-right: 10px;
+    /* Add transition for hover effect */
+    transition: transform 0.3s ease;
+}
+
+/* Social share hover effect */
+.social-share a:hover {
+    transform: scale(1.2);
+}
+
+/* Style for images within the page */
+img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+#joke-container.dark-mode {
+    background-color: #34495e;
+}
